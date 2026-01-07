@@ -1,0 +1,16 @@
+/*animate text code start*/
+.animate-text h2{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    background-image: url(../images/bg2.jpg);
+    background-size: cover;
+    background-clip: text;
+    font-size: 150px;
+    color: transparent;
+    animation: animate 20s linear infinite;
+
+}
+@keyframes animate{
+    to{
+        background-position: -500px;
+    }
+}
